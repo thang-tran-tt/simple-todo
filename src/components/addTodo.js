@@ -20,8 +20,7 @@ const AddTodo = ({dispatch}) => {
                     dispatch(addTodo(input.value, dateInput.value));
                     input.value = '';
                     dateInput.value = ' ';
-                }
-                }
+                }}
                 className="mt-16"
             >
                 <input
